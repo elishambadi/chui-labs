@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chui Labs | Building Africa's Future</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        .hero-pattern {
+            background-image: url('/api/placeholder/1920/1080');
+            background-size: cover;
+            background-position: center;
+            background-blend-mode: overlay;
+        }
+        .transition-all {
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-gray-800">
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 bg-white shadow-md">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-2">
+                    <div class="w-10 h-10 bg-purple-600 rounded-full flex items-center justify-center">
+                        <span class="text-white font-bold text-xl">C</span>
+                    </div>
+                    <span class="text-2xl font-bold text-green-600">Chui Labs</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#services" class="text-gray-700 hover:text-purple-600 font-medium transition-all">Services</a>
+                    <a href="#about" class="text-gray-700 hover:text-purple-600 font-medium transition-all">About</a>
+                    <a href="#approach" class="text-gray-700 hover:text-purple-600 font-medium transition-all">Our Approach</a>
+                    <a href="#contact" class="text-gray-700 hover:text-purple-600 font-medium transition-all">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-700 focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative hero-pattern bg-purple-900">
+        <div class="absolute inset-0 bg-gradient-to-r from-purple-900 to-green-800 opacity-90"></div>
+        <div class="relative container mx-auto px-4 py-32 flex items-center">
+            <div class="max-w-3xl">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">Building Africa's Future, One Enterprise at a Time</h1>
+                <p class="text-xl text-white opacity-90 mb-8">Chui Labs provides affordable, tech-driven consulting services to help SMEs and MSMEs in Africa scale operations and unlock growth potential.</p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#services" class="bg-green-600 hover:bg-green-700 text-white py-3 px-8 rounded-lg font-medium text-lg transition-all transform hover:scale-105 text-center">Explore Our Services</a>
+                    <a href="#contact" class="bg-white hover:bg-gray-100 text-purple-800 py-3 px-8 rounded-lg font-medium text-lg transition-all transform hover:scale-105 text-center">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Services</h2>
+                <div class="w-24 h-1 bg-green-600 mx-auto mb-8"></div>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">We deliver tailored solutions that drive growth for African enterprises.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-all hover:shadow-xl hover:transform hover:scale-105">
+                    <div class="h-2 bg-purple-600"></div>
+                    <div class="p-8">
+                        <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6">
+                            <i class="fas fa-chart-line text-2xl text-purple-600"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Strategy & Advisory</h3>
+                        <p class="text-gray-600 mb-6">Business model refinement, go-to-market strategy, growth diagnostics, and more to help your business scale effectively.</p>
+                        <a href="#contact" class="text-green-600 font-medium hover:text-green-700 flex items-center">
+                            Learn More
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-all hover:shadow-xl hover:transform hover:scale-105">
+                    <div class="h-2 bg-green-600"></div>
+                    <div class="p-8">
+                        <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
+                            <i class="fas fa-laptop-code text-2xl text-green-600"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Digital Transformation</h3>
+                        <p class="text-gray-600 mb-6">From process digitization to ERP/CRM setup, we guide businesses in adopting efficient digital systems.</p>
+                        <a href="#contact" class="text-green-600 font-medium hover:text-green-700 flex items-center">
+                            Learn More
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-all hover:shadow-xl hover:transform hover:scale-105">
+                    <div class="h-2 bg-purple-600"></div>
+                    <div class="p-8">
+                        <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6">
+                            <i class="fas fa-handshake text-2xl text-purple-600"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Access to Markets & Capital</h3>
+                        <p class="text-gray-600 mb-6">We help businesses unlock growth by connecting them with B2B partnerships, donors, and investors.</p>
+                        <a href="#contact" class="text-green-600 font-medium hover:text-green-700 flex items-center">
+                            Learn More
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row items-center">
+                <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-16">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Mission</h2>
+                    <div class="w-24 h-1 bg-purple-600 mb-8"></div>
+                    <p class="text-xl text-gray-600 mb-8">To accelerate Africa's transformation by unlocking the full potential of its small and medium enterprises. We offer practical, culturally-relevant solutions that drive tangible impact.</p>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-green-600">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Our Focus Areas</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <i class="fas fa-leaf text-green-600 mt-1 mr-3"></i>
+                                <span><span class="font-semibold">AgTech:</span> Agribusiness digitization & supply chain technology</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-money-bill-wave text-green-600 mt-1 mr-3"></i>
+                                <span><span class="font-semibold">FinTech:</span> Payments, microfinance, KYC/AML solutions</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-graduation-cap text-green-600 mt-1 mr-3"></i>
+                                <span><span class="font-semibold">EduTech:</span> E-learning platforms & digital literacy programs</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2">
+                    <img src="/api/placeholder/600/400" alt="Chui Labs Team" class="rounded-xl shadow-xl w-full">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Approach Section -->
+    <section id="approach" class="py-20 bg-purple-900 text-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">What Sets Us Apart</h2>
+                <div class="w-24 h-1 bg-green-500 mx-auto mb-8"></div>
+                <p class="text-xl max-w-3xl mx-auto opacity-90">Our unique approach combines technological innovation with deep cultural understanding.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <div class="bg-purple-800 rounded-xl p-8 text-center transition-all hover:transform hover:scale-105">
+                    <div class="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-laptop-code text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Tech + Human Blend</h3>
+                    <p class="opacity-90">We leverage cutting-edge technology while maintaining the human touch essential for understanding local contexts.</p>
+                </div>
+                
+                <div class="bg-purple-800 rounded-xl p-8 text-center transition-all hover:transform hover:scale-105">
+                    <div class="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-globe-africa text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Africa-First Thinking</h3>
+                    <p class="opacity-90">Solutions designed specifically for African enterprises, with local nuances and challenges in mind.</p>
+                </div>
+                
+                <div class="bg-purple-800 rounded-xl p-8 text-center transition-all hover:transform hover:scale-105">
+                    <div class="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-tasks text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Execution Over Theory</h3>
+                    <p class="opacity-90">We prioritize practical implementation and tangible results over theoretical frameworks.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">What Our Clients Say</h2>
+                <div class="w-24 h-1 bg-purple-600 mx-auto mb-8"></div>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Hear from businesses we've helped transform across Africa.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div class="bg-gray-50 rounded-xl p-8 shadow-md">
+                    <div class="flex items-center mb-6">
+                        <div class="text-green-600 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic mb-6">"Chui Labs transformed our agricultural supply chain with their digital solutions. Our efficiency improved by 45% within three months."</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-purple-200 rounded-full flex items-center justify-center mr-4">
+                            <span class="font-bold text-purple-600">KF</span>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Kwame Frimpong</h4>
+                            <p class="text-sm text-gray-500">CEO, AgriConnect Ghana</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 rounded-xl p-8 shadow-md">
+                    <div class="flex items-center mb-6">
+                        <div class="text-green-600 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic mb-6">"The strategic guidance from Chui Labs helped us secure funding and scale our fintech solution across East Africa. Their approach is practical and results-driven."</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-purple-200 rounded-full flex items-center justify-center mr-4">
+                            <span class="font-bold text-purple-600">AO</span>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Amina Omar</h4>
+                            <p class="text-sm text-gray-500">Founder, PayEasy Kenya</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 rounded-xl p-8 shadow-md">
+                    <div class="flex items-center mb-6">
+                        <div class="text-green-600 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic mb-6">"Chui Labs understands the unique challenges faced by African SMEs. Their digital transformation roadmap was tailored perfectly to our needs and budget."</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-purple-200 rounded-full flex items-center justify-center mr-4">
+                            <span class="font-bold text-purple-600">TN</span>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Thabo Nkosi</h4>
+                            <p class="text-sm text-gray-500">Director, EduTech Solutions SA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row">
+                <div class="lg:w-1/2 mb-12 lg:mb-0">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Get in Touch</h2>
+                    <div class="w-24 h-1 bg-green-600 mb-8"></div>
+                    <p class="text-xl text-gray-600 mb-8">Ready to take your business to the next level? Let's discuss how we can help you grow.</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-envelope text-purple-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Email Us</h4>
+                                <a href="mailto:info@chuilabs.com" class="text-green-600 hover:text-green-700">info@chuilabs.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-phone text-purple-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Call Us</h4>
+                                <p class="text-green-600">+254 700 123 456</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-map-marker-alt text-purple-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Visit Us</h4>
+                                <p class="text-gray-600">Kilimani Business Center<br>Nairobi, Kenya</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2 lg:pl-16">
+                    <div class="bg-white rounded-xl shadow-lg p-8">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Send Us a Message</h3>
+                        <form>
+                            <div class="mb-6">
+                                <label class="block text-gray-700 mb-2" for="name">Your Name</label>
+                                <input type="text" id="name" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-600">
+                            </div>
+                            
+                            <div class="mb-6">
+                                <label class="block text-gray-700 mb-2" for="email">Your Email</label>
+                                <input type="email" id="email" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-600">
+                            </div>
+                            
+                            <div class="mb-6">
+                                <label class="block text-gray-700 mb-2" for="message">Message</label>
+                                <textarea id="message" rows="4" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-600"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="w-full bg-green-600 hover:bg-green-700 text-white py-3 px-6 rounded-lg font-medium text-lg transition-all">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-purple-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                <div>
+                    <div class="flex items-center space-x-2 mb-6">
+                        <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center">
+                            <span class="text-purple-600 font-bold text-xl">C</span>
+                        </div>
+                        <span class="text-2xl font-bold text-white">Chui Labs</span>
+                    </div>
+                    <p class="text-gray-300">Driving African enterprise growth through tech-enabled consulting solutions.</p>
+                </div>
+                
+                <div>
+                    <h4 class="text-xl font-bold mb-6">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#services" class="text-gray-300 hover:text-white">Services</a></li>
+                        <li><a href="#about" class="text-gray-300 hover:text-white">About Us</a></li>
+                        <li><a href="#approach" class="text-gray-300 hover:text-white">Our Approach</a></li>
+                        <li><a href="#contact" class="text-gray-300 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-xl font-bold mb-6">Focus Areas</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-300 hover:text-white">AgTech Solutions</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">FinTech Consulting</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">EduTech Platforms</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">Digital Transformation</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-xl font-bold mb-6">Connect With Us</h4>
+                    <div class="flex space-x-4 mb-6">
+                        <a href="#" class="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center hover:bg-green-500">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center hover:bg-green-500">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center hover:bg-green-500">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center hover:bg-green-500">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <p class="text-gray-300">Subscribe to our newsletter</p>
+                    <div class="flex mt-2">
+                        <input type="email" placeholder="Your email" class="px-4 py-2 rounded-l-lg focus:outline-none">
+                        <button class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-r-lg">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-purple-800 mt-12 pt-8 text-center text-gray-300">
+                <p>&copy; 2025 Chui Labs. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,23 @@
+version: '3.9'
+
+services:
+  app:
+    build: .
+    command: gunicorn chui_labs.wsgi:application --bind 0.0.0.0:8000
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - DJANGO_SETTINGS_MODULE=chui_labs.settings
+    depends_on:
+      - tailwind
+
+  tailwind:
+    build:
+      context: .
+      dockerfile: Dockerfile.tailwind
+    command: >
+      sh -c "cd theme && npm install && npm run build"
+    volumes:
+      - .:/app
