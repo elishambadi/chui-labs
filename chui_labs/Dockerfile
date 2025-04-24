@@ -13,3 +13,9 @@ COPY . .
 
 # Collect static files (if needed)
 RUN python manage.py collectstatic --noinput
+
+# Expose port
+EXPOSE 8000
+
+# Start Django application
+CMD ["gunicorn", "--bind", "0.0.0.0:8000", "chui_labs.wsgi:application"]
